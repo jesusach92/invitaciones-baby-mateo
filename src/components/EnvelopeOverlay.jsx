@@ -29,13 +29,13 @@ export default function EnvelopeOverlay({ onStartMusic, opened, setOpened }) {
         >
             <div className="envelope-container">
                 <div className="hero-element-logos">
-                    <img src="/assets/Hero/logo_1.png" alt="" className="hero-logo" style={{ alignSelf: 'flex-end', }} />
-                    <img src="/assets/Hero/logo_2.png" style={{ alignSelf: 'flex-start', width: '150px' }} alt="" className="hero-logo" />
-                    <img src="/assets/Hero/logo_3.png" alt="" className="hero-logo" style={{ alignSelf: 'flex-end', }} />
+                    <img src="/assets/Hero/axel.png" alt="" className="hero-logo" style={{ alignSelf: 'flex-end', }} />
+                    <div className="font-cooper secondary-color font-xl">&</div>
+                    <img src="/assets/Hero/burbujas-mini.png" style={{ alignSelf: 'center', width: '20rem' }} alt="" className="hero-logo" />
                 </div>
-                <div className="clickeable font-serif-bold primary-color" style={{ fontSize: '2rem' }}>Presentan</div>
-                <img src="/assets/Hero/polvos.png" alt="" className="image-decor top-center" />
-                <img src="/assets/Hero/polvos.png" alt="" className="image-decor bottom-center" />
+                <div className="clickeable font-cooper secondary-color" style={{ fontSize: '2rem' }}>¡Te invitan!</div>
+
+
             </div>
         </div>
     );

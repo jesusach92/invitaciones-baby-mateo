@@ -1,19 +1,9 @@
 
 @font-face {
-  font-family: 'Serif-Bold';
-  src: url('/assets/Fonts/SourceSerif4-Bold.otf') format('opentype');
+  font-family: 'Cooper';
+  src: url('/assets/Fonts/Cooper.otf') format('opentype');
 }
 
-@font-face {
-  font-family: 'Serif-Regular';
-  src: url('/assets/Fonts/SourceSerif4-Regular.otf') format('opentype'); 
-}
-
-
-.font-serif-bold {
-  font-family: 'Serif-Bold';
-}
-
-.font-serif-regular {
-  font-family: 'Serif-Regular';
+.font-cooper {
+  font-family: 'Cooper';
 }
