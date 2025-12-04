@@ -282,7 +282,7 @@ Hero Section
   width: 18rem;
 }
 .hero-date{
-  width: 17rem;
+  width: 20rem;
 }
 
 .hero-image-title {
@@ -430,8 +430,8 @@ Music Section
 --------------------------------*/
 .floating-music-player {
   position: fixed;
-  bottom: 20px;
-  left: 20px;
+  bottom: 50px;
+  left: 10px;
   width: 60px;
   height: 60px;
   cursor: pointer;

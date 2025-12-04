@@ -18,7 +18,6 @@ export default function Hero() {
         <div className="hero-element" style={{ alignItems: 'center', justifyContent: 'center' }}>
           <img src="/assets/Hero/fecha.png" alt="" className='hero-date' />
         </div>
-        <div className="hero-element"><img src="/assets/Hero/merry.png" alt="" className='hero-image-decor' /></div>
         <div className="hero-element font-cooper primary-color font-md">
           FALTAN!!
           <br />
@@ -38,7 +37,7 @@ export default function Hero() {
         </div>
         <div className="hero-element font-cooper  tertiary-color font-sm">¡Confirma tu asistencia!</div>
         <div className="hero-element">
-          <a href="https://maps.app.goo.gl/DM5Ko2yK8kqwnsqG6"
+          <a href="https://wa.link/s9zv6k"
             target="_blank" rel="noopener noreferrer"
           ><img src="/assets/Hero/confirmacion.png" alt="" className='hero-image-boton' /></a>
         </div>
