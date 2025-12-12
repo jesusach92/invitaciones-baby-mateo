@@ -314,9 +314,9 @@ Hero Section
   width: 22rem;
 }
 .hero-container{
-  background: url("/assets/Hero/fondo_2.png");
+  /* background: url("/assets/Hero/fondo_2.png");
   background-size: cover;
-  background-position: top;
+  background-position: top; */
   border-radius: 40px;
   background-repeat: no-repeat;
   position: relative;
