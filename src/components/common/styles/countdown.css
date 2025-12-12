@@ -15,24 +15,18 @@
 
 .countdown-value {
   font-weight: bold;
-  color: var(--primary-color);
+
   line-height: 1;
 }
 
-.countdown-value.highlight {
-  color: var(--primary-color);
-}
-
 .countdown-label {
-  color: var(--primary-color);
+
   margin-top: 0.25rem;
   font-weight: 100;
   letter-spacing: 1px;
 }
 
 .countdown-separator {
-
-  color: var(--primary-color);
   line-height: 1;
   padding: 0 0.1rem;
   align-self: baseline;

@@ -5,58 +5,38 @@ import CountdownComponent from './common/CountdownComponent';
 export default function Hero() {
   return (
     <section className='hero'>
-      <div className="hero-element font-serif-regular font-sm tertiary-color" style={{ fontWeight: '200', }} contentEditable={false} autoCorrect='off'><img src="/assets/Hero/mi_cumple.png" alt="Mi cumple" className='hero-date' /></div>
+      <div className="hero-element font-serif-regular font-sm tertiary-color">
+        <img src="/assets/Hero/party.png" alt="Mi cumple" className='hero-logo' style={{ width: '14rem' }} />
+        <img src="/assets/Hero/mafer.png" alt="Mi cumple" className='hero-logo' />
+      </div>
       <div className='hero-container' >
-        <div className="hero-element-title">
-          <img src="/assets/Hero/axel.png" alt="" className='hero-image-title' />
-          <img src="/assets/Hero/baby.png" alt="" className='hero-image-subtitle' />
-        </div>
         <div className="hero-element-logos">
-          <img src="/assets/Hero/cumpliendo.png" alt="" className="hero-logo" />
-          <img src="/assets/Hero/age.png" alt="" className="hero-logo" style={{ width: '8rem' }} />
+          <img src="/assets/Hero/cumpliendo.png" alt="" className="hero-logo" style={{ width: '14rem', paddingTop: '1rem' }} />
+          <img src="/assets/Hero/age.png" alt="" className="hero-logo" style={{ width: '12rem' }} />
         </div>
         <div className="hero-element" style={{ alignItems: 'center', justifyContent: 'center' }}>
-          <img src="/assets/Hero/fecha.png" alt="" className='hero-date' />
+          <img src="/assets/Hero/date.png" alt="" className='hero-date' />
         </div>
-        <div className="hero-element font-cooper primary-color font-md">
+        <div className="hero-element font-copper gradient-color texto-stroke font-lg countdown-position" style={{ textAlign: 'center' }}>
           FALTAN!!
           <br />
-          <CountdownComponent targetDate={'2026-01-03T14:00:00'} />
+          <CountdownComponent targetDate={'2025-12-23T16:00:00'} />
         </div>
-        <div className="hero-element font-cooper tertiary-color font-md">
-          Te esperamos en
-        </div>
-        <div className='hero-element font-cooper tertiary-color font-xs' style={{ textAlign: 'center' }}>
-          C. Tenango 12 Col. Fraccionamiento
-          Hacienda las Torres 1
-        </div>
+        <img src="/assets/Hero/chikids.png" alt="" className='hero-image-boton' />
         <div className="hero-element">
-          <a href="https://maps.app.goo.gl/SN7Ydk5EQWV9XecV6"
+          <a href="https://maps.app.goo.gl/XnPqn9SVqU1eVm657"
             target="_blank" rel="noopener noreferrer"
           ><img src="/assets/Hero/ubicacion.png" alt="" className='hero-image-boton' /></a>
         </div>
-        <div className="hero-element font-cooper  tertiary-color font-sm">¡Confirma tu asistencia!</div>
         <div className="hero-element">
-          <a href="https://wa.link/s9zv6k"
+          <img src="/assets/Hero/no_faltes.png" alt="" className='hero-image-boton' />
+          <a href="https://wa.link/6n6qlp"
             target="_blank" rel="noopener noreferrer"
           ><img src="/assets/Hero/confirmacion.png" alt="" className='hero-image-boton' /></a>
         </div>
-        <img src="/assets/Hero/burbuja.png" alt="" className="image-decor bottom-left" />
-        <img src="/assets/Hero/mimoso.png" alt="" className="image-decor center-right" />
-        <img src="/assets/Hero/burbuja.png" alt="" className="image-decor top-center-decor-little" />
-        <img src="/assets/Hero/burbuja.png" alt="" className="image-decor top-right-decor-little" />
-        <img src="/assets/Hero/burbuja.png" alt="" className="image-decor top-left-decor" />
-        <img src="/assets/Hero/burbuja.png" alt="" className="image-decor top-left-decor animate-fall-and-spin" />
-        <img src="/assets/Hero/burbuja.png" alt="" className="image-decor top-right" />
-        <img src="/assets/Hero/burbuja.png" alt="" className="image-decor top-right-decor animate-fall-and-spin" />
-        <img src="/assets/Hero/burbuja.png" alt="" className="image-decor top-right-decor" />
-        <img src="/assets/Hero/burbuja.png" alt="" className="image-decor center-left" />
-        <img src="/assets/Hero/burbuja.png" alt="" className="image-decor bottom-right-1" />
-        <img src="/assets/Hero/burbuja.png" alt="" className="image-decor bottom-right-2" />
-        <img src="/assets/Hero/burbuja.png" alt="" className="image-decor top-left" />
       </div>
-      <img src="/assets/Hero/polvos_2.png" alt="" className="image-decor top-center" />
-      <img src="/assets/Hero/burbujas-mini.png" alt="" className="image-decor bottom-center" />
+
+      <img src="/assets/Hero/guerreras.png" alt="" className="image-decor bottom-center" />
     </section>
   );
 }

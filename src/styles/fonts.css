@@ -1,9 +1,9 @@
 
 @font-face {
   font-family: 'Cooper';
-  src: url('/assets/Fonts/Cooper.otf') format('opentype');
+  src: url('/assets/Fonts/Copper.ttf') format('trueType');
 }
 
-.font-cooper {
+.font-copper {
   font-family: 'Cooper';
 }
