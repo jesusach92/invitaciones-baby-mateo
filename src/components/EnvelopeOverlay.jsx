@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "../styles/styles.css";
+
 
 export default function EnvelopeOverlay({ onStartMusic, opened, setOpened }) {
 
@@ -30,10 +30,9 @@ export default function EnvelopeOverlay({ onStartMusic, opened, setOpened }) {
             <div className="envelope-container">
                 <div className="hero-element-logos">
                     <img src="/assets/Hero/mafer.png" alt="" className="hero-logo" style={{ alignSelf: 'flex-end', }} />
-                    <div className="font-copper primary-color font-xl">&</div>
-                    <img src="/assets/Hero/guerreras.png" style={{ alignSelf: 'center', width: '20rem' }} alt="" className="hero-logo" />
+                    <img src="/assets/Hero/envelope.png" style={{ alignSelf: 'center', width: '20rem' }} alt="" className="hero-logo" />
                 </div>
-                <div className="clickeable font-copper secondary-color" style={{ fontSize: '2rem' }}>¡Te invitan!</div>
+                <div className="clickeable font-rage secondary-color" style={{ fontSize: '3rem' }}>¡Te invita!</div>
 
 
             </div>

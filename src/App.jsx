@@ -4,7 +4,8 @@ import EnvelopeOverlay from './components/EnvelopeOverlay'
 import Hero from './components/Hero'
 import Container from './components/common/Container'
 import MusicPlayer from './components/common/MusicPlayer'
-import './styles/normalize.css'
+import './styles/main.css'
+
 
 function App() {
   const [musicStarted, setMusicStarted] = useState(false);

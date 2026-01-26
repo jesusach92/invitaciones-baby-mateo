@@ -1,9 +1,10 @@
 
+
 @font-face {
-  font-family: 'Cooper';
-  src: url('/assets/Fonts/Copper.ttf') format('trueType');
+  font-family: 'Rage';
+  src: url('/assets/Fonts/RAGE_1.TTF') format('trueType');
 }
 
-.font-copper {
-  font-family: 'Cooper';
+.font-rage {
+  font-family: 'Rage';
 }

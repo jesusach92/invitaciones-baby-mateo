@@ -36,29 +36,29 @@ export default function CountdownComponent({ targetDate }) {
   return (
     <div className="countdown-component-container">
       <div className="countdown-column">
-        <div className="countdown-value font-copper secondary-color font-lg">{timeLeft.days}</div>
-        <div className="countdown-label font-copper gradient-color no-stroke font-sm">DÍAS</div>
+        <div className="countdown-value font-rage secondary-color font-lg">{timeLeft.days}</div>
+        <div className="countdown-label font-rage gradient-color no-stroke font-sm">DÍAS</div>
       </div>
 
-      <div className="countdown-separator font-copper secondary-color font-lg">:</div>
+      <div className="countdown-separator font-rage secondary-color font-lg">:</div>
 
       <div className="countdown-column">
-        <div className="countdown-value font-copper secondary-color font-lg">{timeLeft.hours}</div>
-        <div className="countdown-label font-copper gradient-color no-stroke font-sm">HRS</div>
+        <div className="countdown-value font-rage secondary-color font-lg">{timeLeft.hours}</div>
+        <div className="countdown-label font-rage gradient-color no-stroke font-sm">HRS</div>
       </div>
 
-      <div className="countdown-separator font-copper secondary-color font-lg">:</div>
+      <div className="countdown-separator font-rage secondary-color font-lg">:</div>
 
       <div className="countdown-column">
-        <div className="countdown-value font-copper secondary-color font-lg">{timeLeft.minutes}</div>
-        <div className="countdown-label font-copper gradiente-color no-stroke font-sm">MIN</div>
+        <div className="countdown-value font-rage secondary-color font-lg">{timeLeft.minutes}</div>
+        <div className="countdown-label font-rage gradiente-color no-stroke font-sm">MIN</div>
       </div>
 
-      <div className="countdown-separator font-copper secondary-color font-lg">:</div>
+      <div className="countdown-separator font-rage secondary-color font-lg">:</div>
 
       <div className="countdown-column">
-        <div className="countdown-value highlight font-copper secondary-color font-lg">{timeLeft.seconds}</div>
-        <div className="countdown-label font-copper gradient-color no-stroke font-sm">SEG</div>
+        <div className="countdown-value highlight font-rage secondary-color font-lg">{timeLeft.seconds}</div>
+        <div className="countdown-label font-rage gradient-color no-stroke font-sm">SEG</div>
       </div>
     </div>
   );

@@ -1,5 +1,4 @@
-@import url('../../../styles/styles.css');
-
+@import url('../../../styles/main.css');
 .countdown-component-container {
   display: flex;
   justify-content: center;
@@ -15,12 +14,10 @@
 
 .countdown-value {
   font-weight: bold;
-
   line-height: 1;
 }
 
 .countdown-label {
-
   margin-top: 0.25rem;
   font-weight: 100;
   letter-spacing: 1px;
