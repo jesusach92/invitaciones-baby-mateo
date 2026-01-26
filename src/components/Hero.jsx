@@ -5,7 +5,7 @@ export default function Hero() {
     <section className='hero'>
       <div className='hero-container'>
         <img src="/assets/Hero/background.png" alt="" className='hero-background' />
-        <a className='button-location' href='https://maps.app.goo.gl/6c5Fy6Qi4hyqAenq8?g_st=aw' target="_blank" rel="noopener noreferrer">
+        <a className='button-location' href='https://maps.app.goo.gl/qotuajgazozZbqpa8?g_st=aw' target="_blank" rel="noopener noreferrer">
           <img src="/assets/Hero/button.png" alt="" className='button-image' />
         </a>
         <div className="countdown-component">

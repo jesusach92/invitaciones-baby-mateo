@@ -1,0 +1,27 @@
+:root {
+ --primary-color: #575552;
+ --secondary-color:#575552;
+ --tertiary-color:#6b1030;
+ --gradient-color:#575552;
+
+  --background-color: #000000;
+
+  --font-xs: clamp(0.8rem, 1.2vw, 1rem);
+  --font-lg: clamp(3rem, 3vw, 2.5rem);
+  --font-md: clamp(1.5rem, 2.5vw, 1.8rem);
+  --font-sm: clamp(1.2rem, 2vw, 1.5rem);
+  --font-sl: clamp(1rem, 1.5vw, 1.3rem);
+  --font-xl: clamp(4rem, 5vw, 5rem);
+
+}
+
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: 100%;
+}
