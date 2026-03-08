@@ -28,14 +28,9 @@ export default function EnvelopeOverlay({ onStartMusic, opened, setOpened }) {
             onClick={handleOpen}
         >
             <div className="envelope-container">
-                <div className="hero-element-logos">
-                    <img src="/assets/Hero/mafer.png" alt="" className="hero-logo" style={{ alignSelf: 'flex-end', }} />
-                    <img src="/assets/Hero/envelope.png" style={{ alignSelf: 'center', width: '20rem' }} alt="" className="hero-logo" />
-                </div>
-                <div className="clickeable font-rage secondary-color" style={{ fontSize: '3rem' }}>¡Te invita!</div>
-
 
             </div>
+
         </div>
     );
 }

@@ -7,9 +7,9 @@
   cursor: pointer;
   z-index: 9999;
   transition: transform 1s ease-in-out;
-  /* background: url('/assets/Envelope/images/background.jpg');
+  background: url('/assets/Hero/envelope.png');
   background-size: cover;
-  background-position: center; */
+  background-position: center;
   background-color: var(--background-color);
 }
 

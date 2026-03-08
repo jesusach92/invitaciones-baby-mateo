@@ -33,20 +33,33 @@
   width: 100%;
 }
 
-.button-location{
-  width: 45%;
-  position: absolute;
-  bottom: 17%;
-  left: 60%;
-  transform: translateX(-50%);
-
-}
 .button-image{
   width: 100%;
 }
 .countdown-component{
   position: absolute;
-  top: 65%;
+  top: 62%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.faltan-image{
+  width: 50%;
+}
+.button-location{
+  position: absolute;
+  top: 85%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+}
+.button-confirmation{
+  position: absolute;
+  top: 95%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 40%;
 }
